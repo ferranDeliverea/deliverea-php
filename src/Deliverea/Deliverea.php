@@ -32,8 +32,8 @@ class Deliverea
 
     private $isSandbox = false;
 
-    private $baseEndpoint = 'https://dlvrapi.com/v1';
-    private $baseEndpointSandbox = 'https://sandbox.dlvrapi.com/v1';
+    private $baseEndpoint = 'http://dev.api.deliverea.com/v1';
+    private $baseEndpointSandbox = 'http://dev.api.deliverea.com/v1';
 
     /**
      * @param $username
